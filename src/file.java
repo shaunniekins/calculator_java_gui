@@ -54,6 +54,7 @@ public class file extends JFrame implements ActionListener{
             numberButtons[i].setBackground(lightGrayColor);
             numberButtons[i].setForeground(Color.WHITE);
             numberButtons[i].setBorder(emptyBorder);
+            numberButtons[i].setPreferredSize(new Dimension(80, 60));
             numberButtons[i].addActionListener(this);
         }
         
@@ -66,6 +67,7 @@ public class file extends JFrame implements ActionListener{
         	button.setBackground(darkGrayColor);
         	button.setForeground(Color.WHITE);
         	button.setBorder(emptyBorder);
+        	button.setPreferredSize(new Dimension(80, 60));
             button.addActionListener(this);
         }
         
@@ -80,6 +82,7 @@ public class file extends JFrame implements ActionListener{
         	button.setBackground(darkGrayColor);
         	button.setForeground(Color.WHITE);
         	button.setBorder(emptyBorder);
+        	button.setPreferredSize(new Dimension(80, 60));
             button.addActionListener(this);
         }
         
@@ -87,24 +90,28 @@ public class file extends JFrame implements ActionListener{
         equalsButton.setBackground(orangeColor);
         equalsButton.setForeground(Color.WHITE);
         equalsButton.setBorder(emptyBorder);
+        equalsButton.setPreferredSize(new Dimension(80, 60));
         equalsButton.addActionListener(this);
 
         openBraceButton = new JButton("(");
         openBraceButton.setBackground(darkGrayColor);
         openBraceButton.setForeground(Color.WHITE);
         openBraceButton.setBorder(emptyBorder);
+        openBraceButton.setPreferredSize(new Dimension(80, 60));
         openBraceButton.addActionListener(this);
         
         closeBraceButton = new JButton(")");
         closeBraceButton.setBackground(darkGrayColor);
         closeBraceButton.setForeground(Color.WHITE);
         closeBraceButton.setBorder(emptyBorder);
+        closeBraceButton.setPreferredSize(new Dimension(80, 60));
         closeBraceButton.addActionListener(this);
         
         clearButton = new JButton("⌫");
         clearButton.setBackground(darkGrayColor);
         clearButton.setForeground(Color.WHITE);
         clearButton.setBorder(emptyBorder);
+        clearButton.setPreferredSize(new Dimension(80, 60));
         clearButton.addActionListener(this);
         
         // Create the panels
