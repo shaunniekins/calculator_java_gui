@@ -230,7 +230,6 @@ public class Calculator extends JFrame implements ActionListener {
 
     private void evaluateExpression() {
         String expression = display.getText();
-        System.out.println("expression: " + expression);
         if (!expression.isEmpty()) {
             try {
                 double result = evaluate(expression);
